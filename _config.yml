@@ -14,16 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Vivian Ta
-email: 
+# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Vivian Ta | DevOps Engineer | Always looking to improve
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "visokoo.net" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  visokoo
-
+show_downloads: true
+linked_in: "www.linkedin.com/in/visokoo"
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
